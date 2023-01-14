@@ -1,6 +1,5 @@
 {
-  "app.edit": {
-    "defaultMessage": "Edit {filename} and save to reload.",
-    "description": "The message to display when the user edits the file"
-  }
+    "test context": {
+        "test term": "ترم آزمون"
+    }
 }

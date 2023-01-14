@@ -1,0 +1,16 @@
+{
+  "app.edit": [
+    {
+      "type": 0,
+      "value": "Edit "
+    },
+    {
+      "type": 1,
+      "value": "filename"
+    },
+    {
+      "type": 0,
+      "value": " and save to reload."
+    }
+  ]
+}

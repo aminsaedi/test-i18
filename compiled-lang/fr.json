@@ -1,0 +1,16 @@
+{
+  "app.edit": [
+    {
+      "type": 0,
+      "value": "Modifiez "
+    },
+    {
+      "type": 1,
+      "value": "filename"
+    },
+    {
+      "type": 0,
+      "value": " et enregistrez pour recharger."
+    }
+  ]
+}

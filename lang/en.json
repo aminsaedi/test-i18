@@ -1,6 +1,0 @@
-{
-  "app.edit": {
-    "notes": "The message to display when the user edits the file",
-    "translation": "Edit {filename} and save to reload."
-  }
-}

@@ -1,3 +1,6 @@
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -7,7 +10,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <FormattedMessage
+            id="app.edit"
+            defaultMessage="Edit {filename} and save to reload."
+            description="The message to display when the user edits the file"
+            values={{ filename: <code>src/App.js</code> }}
+          />
         </p>
         <a
           className="App-link"

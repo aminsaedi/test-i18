@@ -1,6 +1,6 @@
 {
   "app.edit": {
-    "defaultMessage": "Edit {filename} and save to reload.",
-    "description": "The message to display when the user edits the file"
+    "developer_comment": "The message to display when the user edits the file",
+    "string": "Edit {filename} and save to reload."
   }
 }

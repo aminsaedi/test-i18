@@ -12,5 +12,11 @@
       "type": 0,
       "value": " et enregistrez pour recharger."
     }
+  ],
+  "app.learn": [
+    {
+      "type": 0,
+      "value": "Apprendre Réagir"
+    }
   ]
 }

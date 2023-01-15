@@ -21,7 +21,6 @@ export default function LocalProvider({ children }) {
   const locale = useSelector((state) => state.lang.lang);
   const messages = loadLocaleData(locale);
   const direction = locale === 'fa' ? 'rtl' : 'ltr';
-  console.log({ locale, messages });
   return (
     <IntlProvider defaultLocale="en" key={locale} messages={messages} locale={locale}>
       <div style={{ direction }}>

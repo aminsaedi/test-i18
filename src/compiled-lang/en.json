@@ -12,5 +12,11 @@
       "type": 0,
       "value": " and save to reload."
     }
+  ],
+  "app.learn": [
+    {
+      "type": 0,
+      "value": "Learn React"
+    }
   ]
 }

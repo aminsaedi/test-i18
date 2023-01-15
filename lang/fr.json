@@ -1,13 +1,13 @@
 {
     "app.edit": {
-        "translation": "Edit {filename} and save to reload."
+        "translation": "Modifiez {filename} et enregistrez pour recharger."
     },
     "app.learn": {
-        "translation": "Learn React",
+        "translation": "Apprendre Réagir",
         "notes": "The message to display when the user edits the file"
     },
     "app.message": {
-        "translation": "You have {count, plural, one {message} other {messages}}",
+        "translation": "Vous avez {count, plural, one { messageFr } other { messagesFrs }}",
         "notes": "The message to display when the user edits the file"
     }
 }

@@ -3,6 +3,7 @@
         "translation": "Modifiez {filename} et enregistrez pour recharger."
     },
     "app.learn": {
-        "translation": "Apprendre Réagir"
+        "translation": "Apprendre Réagir",
+        "notes": "The message to display when the user edits the file"
     }
 }

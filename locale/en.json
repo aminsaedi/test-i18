@@ -3,6 +3,7 @@
         "translation": "Edit {filename} and save to reload."
     },
     "app.learn": {
-        "translation": "Learn React"
+        "translation": "Learn React",
+        "notes": "The message to display when the user edits the file"
     }
 }

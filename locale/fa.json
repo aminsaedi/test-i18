@@ -3,6 +3,7 @@
         "translation": "{filename} را ویرایش کنید و برای بارگیری مجدد ذخیره کنید."
     },
     "app.learn": {
-        "translation": "React را یاد بگیرید"
+        "translation": "React را یاد بگیرید",
+        "notes": "The message to display when the user edits the file"
     }
 }

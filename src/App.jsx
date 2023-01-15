@@ -48,6 +48,13 @@ function App() {
             one="You have {count} message"
             other="You have {count} messages"
           />
+          <FormattedMessage
+            id="app.message"
+            defaultMessage="You have {count, plural, one {message} other {messages}}"
+            description="The message to display when the user edits the file"
+            values={{ count: 1 }}
+          />
+
         </p>
         <a
           className="App-link"

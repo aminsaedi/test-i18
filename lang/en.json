@@ -1,14 +1,14 @@
 {
-  "2itry7": {
-    "notes": "The message to display when the user edits the file",
-    "translation": "You have {count, plural, =0 {no messages} one {1 message} other {{count} messages}}"
-  },
-  "oOgH6W": {
-    "notes": "The message to display when the user edits the file",
-    "translation": "Edit {filename} and save to reload."
-  },
-  "sN4pDg": {
-    "notes": "The message to display when the user edits the file",
-    "translation": "Learn React"
-  }
+    "oOgH6W": {
+        "translation": "Edit {filename} and save to reload.",
+        "notes": "The message to display when the user edits the file"
+    },
+    "sN4pDg": {
+        "translation": "Learn React",
+        "notes": "The message to display when the user edits the file"
+    },
+    "2itry7": {
+        "translation": "You have {count, plural, =0 {no messages} one {1 message} other {{count} messages}}",
+        "notes": "The message to display when the user edits the file"
+    }
 }

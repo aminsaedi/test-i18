@@ -1,13 +1,14 @@
 {
-    "app.edit": {
-        "translation": "{filename} را ویرایش کنید و برای بارگیری مجدد ذخیره کنید."
+    "oOgH6W": {
+        "translation": "{filename} را ویرایش کنید و برای بارگیری مجدد ذخیره کنید.",
+        "notes": "The message to display when the user edits the file"
     },
-    "app.learn": {
+    "sN4pDg": {
         "translation": "React را یاد بگیرید",
         "notes": "The message to display when the user edits the file"
     },
-    "app.message": {
-        "translation": "شما {count, plural, one { پیام } other { پیام ها }} دارید",
+    "2itry7": {
+        "translation": "شما {count, plural, =0 { no messages } one { 1 message } other {{count} messages }} دارید",
         "notes": "The message to display when the user edits the file"
     }
 }

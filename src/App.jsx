@@ -35,6 +35,13 @@ function App() {
             values={{ filename: <code>src/App.js</code> }}
           />
         </p>
+        <p>
+          <FormattedMessage
+            id="app.learn"
+            defaultMessage="Learn React"
+            description="The message to display when the user edits the file"
+          />
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"

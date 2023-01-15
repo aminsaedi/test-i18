@@ -20,9 +20,8 @@ module.exports = {
       'error',
       {
         idInterpolationPattern: '[sha512:contenthash:base64:6]',
-        idWhitelist: '^general.*',
+        idWhitelist: ['^general.*'],
       },
     ],
-    'formatjs/no-id': 'error',
   },
 };

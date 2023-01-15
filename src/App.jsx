@@ -1,5 +1,5 @@
-import React from 'react';
-import { FormattedMessage, FormattedPlural } from 'react-intl';
+import React, { useState } from 'react';
+import { FormattedMessage } from 'react-intl';
 import { useSelector, useDispatch } from 'react-redux';
 import { setLang } from './store/configStore';
 
@@ -9,6 +9,8 @@ import './App.css';
 function App() {
   const dispatch = useDispatch();
   const locale = useSelector((state) => state.lang.lang);
+
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -45,23 +47,18 @@ function App() {
           <br />
         </p>
         <p>
-          <FormattedPlural
-            value={1}
-            one="You have {count} message"
-            other="You have {count} messages"
-          />
+          <button type="button" onClick={() => setCount(count + 1)}>
+            +
+          </button>
+          <button type="button" onClick={() => setCount(count - 1)}>
+            -
+          </button>
           <br />
           <FormattedMessage
-            id="VaqBdp"
-            defaultMessage="You have {count} {count, plural, =0 {no messages} one {1 message} other {{count} messages}}"
+            id="2itry7"
+            defaultMessage="You have {count, plural, =0 {no messages} one {1 message} other {{count} messages}}"
             description="The message to display when the user edits the file"
-            values={{ count: 1 }}
-          />
-
-          <FormattedMessage
-            id="iuxffi"
-            defaultMessage="the price is {p, number, customCurrency}"
-            description="The message to display when the user edits the file"
+            values={{ count }}
           />
         </p>
         <a

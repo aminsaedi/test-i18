@@ -6,5 +6,9 @@
   "app.learn": {
     "notes": "The message to display when the user edits the file",
     "translation": "Learn React"
+  },
+  "app.message": {
+    "notes": "The message to display when the user edits the file",
+    "translation": "You have {count, plural, one {message} other {messages}}"
   }
 }

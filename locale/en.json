@@ -1,8 +1,0 @@
-{
-    "app.edit": {
-        "translation": "Edit {filename} and save to reload."
-    },
-    "app.learn": {
-        "translation": "Learn React"
-    }
-}

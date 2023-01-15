@@ -1,11 +1,7 @@
 {
-  "VaqBdp": {
+  "2itry7": {
     "notes": "The message to display when the user edits the file",
-    "translation": "You have {count} {count, plural, =0 {no messages} one {1 message} other {{count} messages}}"
-  },
-  "iuxffi": {
-    "notes": "The message to display when the user edits the file",
-    "translation": "the price is {p, number, customCurrency}"
+    "translation": "You have {count, plural, =0 {no messages} one {1 message} other {{count} messages}}"
   },
   "oOgH6W": {
     "notes": "The message to display when the user edits the file",

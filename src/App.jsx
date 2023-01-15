@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, FormattedPlural } from 'react-intl';
 import { useSelector, useDispatch } from 'react-redux';
 import { setLang } from './store/configStore';
 
@@ -40,6 +40,13 @@ function App() {
             id="app.learn"
             defaultMessage="Learn React"
             description="The message to display when the user edits the file"
+          />
+        </p>
+        <p>
+          <FormattedPlural
+            value={1}
+            one="You have {count} message"
+            other="You have {count} messages"
           />
         </p>
         <a

@@ -1,13 +1,18 @@
 {
-    "app.edit": {
-        "translation": "Edit {filename} and save to reload."
-    },
-    "app.learn": {
-        "translation": "Learn React",
-        "notes": "The message to display when the user edits the file"
-    },
-    "app.message": {
-        "translation": "You have {count, plural, one {message} other {messages}}",
-        "notes": "The message to display when the user edits the file"
-    }
+  "VaqBdp": {
+    "notes": "The message to display when the user edits the file",
+    "translation": "You have {count} {count, plural, =0 {no messages} one {1 message} other {{count} messages}}"
+  },
+  "iuxffi": {
+    "notes": "The message to display when the user edits the file",
+    "translation": "the price is {p, number, customCurrency}"
+  },
+  "oOgH6W": {
+    "notes": "The message to display when the user edits the file",
+    "translation": "Edit {filename} and save to reload."
+  },
+  "sN4pDg": {
+    "notes": "The message to display when the user edits the file",
+    "translation": "Learn React"
+  }
 }

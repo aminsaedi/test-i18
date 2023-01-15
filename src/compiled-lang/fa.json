@@ -1,0 +1,52 @@
+{
+  "app.edit": [
+    {
+      "type": 1,
+      "value": "filename"
+    },
+    {
+      "type": 0,
+      "value": " را ویرایش کنید و برای بارگیری مجدد ذخیره کنید."
+    }
+  ],
+  "app.learn": [
+    {
+      "type": 0,
+      "value": "React را یاد بگیرید"
+    }
+  ],
+  "app.message": [
+    {
+      "type": 0,
+      "value": "شما "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " پیام "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " پیام ها "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " دارید"
+    }
+  ]
+}

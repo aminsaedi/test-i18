@@ -25,12 +25,6 @@
     "extract": "formatjs extract",
     "compile": "formatjs compile"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",

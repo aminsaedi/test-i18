@@ -1,0 +1,52 @@
+{
+  "app.edit": [
+    {
+      "type": 0,
+      "value": "Modifiez "
+    },
+    {
+      "type": 1,
+      "value": "filename"
+    },
+    {
+      "type": 0,
+      "value": " et enregistrez pour recharger."
+    }
+  ],
+  "app.learn": [
+    {
+      "type": 0,
+      "value": "Apprendre Réagir"
+    }
+  ],
+  "app.message": [
+    {
+      "type": 0,
+      "value": "Vous avez "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " messageFr "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " messagesFrs "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ]
+}

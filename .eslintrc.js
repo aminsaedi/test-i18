@@ -3,7 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:react/recommended', 'airbnb'],
+  extends: [
+    'react-app',
+    'react-app/jest',
+    'plugin:react/recommended', 'airbnb'],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -12,5 +15,14 @@ module.exports = {
   plugins: ['react', 'formatjs'],
   rules: {
     'formatjs/no-offset': 'error',
+    'no-console': 'warn',
+    'formatjs/enforce-id': [
+      'error',
+      {
+        idInterpolationPattern: '[sha512:contenthash:base64:6]',
+        idWhitelist: '^general.*',
+      },
+    ],
+    'formatjs/no-id': 'error',
   },
 };

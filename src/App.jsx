@@ -9,6 +9,7 @@ import './App.css';
 function App() {
   const dispatch = useDispatch();
   const locale = useSelector((state) => state.lang.lang);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -29,7 +30,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <FormattedMessage
-            id="app.edit"
+            id="oOgH6W"
             defaultMessage="Edit {filename} and save to reload."
             description="The message to display when the user edits the file"
             values={{ filename: <code>src/App.js</code> }}
@@ -37,10 +38,11 @@ function App() {
         </p>
         <p>
           <FormattedMessage
-            id="app.learn"
+            id="sN4pDg"
             defaultMessage="Learn React"
             description="The message to display when the user edits the file"
           />
+          <br />
         </p>
         <p>
           <FormattedPlural
@@ -48,13 +50,19 @@ function App() {
             one="You have {count} message"
             other="You have {count} messages"
           />
+          <br />
           <FormattedMessage
-            id="app.message"
-            defaultMessage="You have {count, plural, one {message} other {messages}}"
+            id="VaqBdp"
+            defaultMessage="You have {count} {count, plural, =0 {no messages} one {1 message} other {{count} messages}}"
             description="The message to display when the user edits the file"
             values={{ count: 1 }}
           />
 
+          <FormattedMessage
+            id="iuxffi"
+            defaultMessage="the price is {p, number, customCurrency}"
+            description="The message to display when the user edits the file"
+          />
         </p>
         <a
           className="App-link"

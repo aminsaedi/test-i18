@@ -1,13 +1,31 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { useSelector, useDispatch } from 'react-redux';
+import { setLang } from './store/configStore';
 
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const dispatch = useDispatch();
+  const locale = useSelector((state) => state.lang.lang);
   return (
     <div className="App">
       <header className="App-header">
+        <div>
+          {/* dropdown to select lang */}
+          <select
+            value={locale}
+            onChange={(e) => {
+              dispatch(setLang(e.target.value));
+            }}
+          >
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <option value="fa">Persian</option>
+          </select>
+
+        </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <FormattedMessage

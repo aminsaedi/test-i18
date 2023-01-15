@@ -1,16 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
+
 import './index.css';
-import { IntlProvider } from 'react-intl';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LocalProvider from './LocalProvider';
+import configStore from './store/configStore';
+
+const store = configStore();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <IntlProvider defaultLocale="en" locale={navigator.language}>
-      <App />
-    </IntlProvider>
+    <Provider store={store}>
+      <LocalProvider>
+        <App />
+      </LocalProvider>
+    </Provider>
   </React.StrictMode>,
 );
 
